@@ -1,0 +1,9 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/* {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+  } */
