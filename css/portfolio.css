@@ -1,0 +1,34 @@
+.portfolio {
+    background-color: var(--background-primary-color);
+    margin-top:5vh;
+    padding:8vh 0;
+    text-align:center;
+}
+.portfolio__intro {
+    margin-bottom: 5vh;
+    width: 80vh;
+  }
+.portfolio__title {
+    font-family: var(--font-special);
+    font-weight: var(--font-weight-normal);
+    font-size: 2.5rem;
+    margin-top:0;
+}
+.portfolio__box {
+    background-color: var(--background-box-color);
+    margin: 5vh 10vw;
+    padding:1.2rem;
+}
+.portfolio__box-logo {
+    display:block;
+    width:60vw;
+    object-fit: cover;
+    margin:0 auto;
+}
+.portfolio__box-title {
+    text-transform: uppercase;
+    font-weight: var(--font-weight-thin);
+}
+.portfolio__box-text {
+    padding:5vw;
+}

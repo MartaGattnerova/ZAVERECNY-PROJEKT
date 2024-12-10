@@ -5,9 +5,10 @@ html { box-sizing: border-box; }
   --font-primary: 'Montserrat', sans-serif; 
   --font-secondary: 'Lora', sans-serif; 
   --font-special: 'Dancing Script', cursive;
+  --fong-weight-normal :400;
   --font-weight-bold: 700;
   --font-weight-semibold: 500;
-  --font-weight-thin: 200;
+  --font-weight-thin: 300;
 }
 
 :root {
