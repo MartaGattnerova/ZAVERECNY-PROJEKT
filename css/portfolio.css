@@ -6,7 +6,8 @@
 }
 .portfolio__intro {
     margin-bottom: 5vh;
-    width: 80vh;
+    width: 80vw;
+    margin: 0 auto;
   }
 .portfolio__title {
     font-family: var(--font-special);
@@ -31,4 +32,32 @@
 }
 .portfolio__box-text {
     padding:5vw;
+}
+.portfolio__box-button {
+    background-color: var(--button-background-color);
+    color: var(--text-primary-color);
+    font-family: var(--font-secondary);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:none;
+    padding:0.8rem;
+/*     display: block;
+    margin: 0 auto; */
+  }
+.portfolio__box-button:hover {
+    color:var(--menu-link-hover-color);
+    border:1px solid var(--background-secondary-color)
+  }
+.portfolio__box-button:active {
+    color:var(--menu-link-active-color);
+  }
+.portfolio__hypertext {
+    color: var(--text-primary-color);
+}
+.portfolio__hypertext:hover {
+    color:var(--menu-link-hover-color);
+}
+.portfolio__hypertext:active {
+    color:var(--menu-link-active-color);
 }
