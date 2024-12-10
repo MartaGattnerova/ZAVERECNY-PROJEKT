@@ -42,8 +42,6 @@
     text-transform: uppercase;
     border:none;
     padding:0.8rem;
-/*     display: block;
-    margin: 0 auto; */
   }
 .portfolio__box-button:hover {
     color:var(--menu-link-hover-color);
@@ -60,4 +58,30 @@
 }
 .portfolio__hypertext:active {
     color:var(--menu-link-active-color);
+}
+/* "TABLET" */
+@media screen and (min-width:600px) {
+.portfolio__box-logo {
+    width:25vw;
+}
+}
+/* "PC" */
+@media screen and (min-width:1100px) {
+.portfolio__boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+.portfolio__box {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw;
+}
+.portfolio__box-logo {
+    width:25vw;
+}
+.portfolio__box-button {
+    display: block;
+    margin-top: auto;
+}
 }
