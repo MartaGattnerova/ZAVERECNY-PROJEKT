@@ -2,23 +2,29 @@
 layout: sablona.njk
 title: MG - Kontakt
 ---
-<main class="kontakt">
-    <h2 class="kontakt__title">Kontakt</h2>
-    <p class="kontakt__description">Tady najdete všechny důležité kontaktní údaje</p>
-    <p class="kontakt__info">
+<main class="contact">
+    <h2 class="contact__title">Kontakt</h2>
+    <div class="contact__intro">
+        <p class="contact__description">Tady mě můžete zastihnout.</p>
+        <p class="contact__info">
         Ing. Bc. Marta Gattnerová<br>
-        e-mail: marta.gattnerova@gmail.com<br>
-        tel: +420732653499<br>
-        adresa: Zámecká 149, Velké Heraltice 747 75
-    </p>
-    <div class="contact__form">
-        <p class="contakt__form-text">Máte jakýkoliv dotaz? Napište!</p>
-        <form method="get" action="#">
-            <input type="text" name="jmeno" id="jmeno" maxlength="25" placeholder="jméno" autofocus required>
-            <label for="jmeno">Jméno</label>
-            <input type="button" name="Odeslat" id="odeslat" value="Odeslat">
-            <input type="email" name="email" id="email" placeholder="e-mail">
-            <textarea>text</textarea>
+        <a class="contact__contact-item" href="mailto:marta.gattnerova@gmail.com">marta.gattnerova@gmail.com</a><br>
+        <a class="contact__contact-item" href="tel:+420732653499">+420732653499</a><br>
+        Zámecká 149, Velké Heraltice 747 75
+        </p>
+    </div>
+    <div class="contact__form-box">
+        <p class="contact__form-text">Máte jakýkoliv dotaz? Napište!</p>
+        <form class="contact__form" method="get" action="#">
+            <label class="contact__form-label" for="jmeno">Jméno</label>
+            <input class="contact__form-input" type="text" name="jmeno" id="jmeno" maxlength="25" placeholder="jméno" autofocus required>
+
+            <label class="contact__form-label" for="email">E-mail</label>
+            <input class="contact__form-input" type="email" name="email" id="email" placeholder="e-mail" required>
+
+            <label class="contact__form-label" for="message">Zpráva</label>
+            <textarea class="contact__form-textarea" name="message" id="message" placeholder="Vaše zpráva" rows="5" required></textarea>
+            <input type="submit" value="Odeslat">
         </form>
     </div>
 </main>
