@@ -57,7 +57,11 @@
   }
 .main-page__box-button:active {
     color:var(--menu-link-active-color);
-  }
+}
+/* ---děkovací stránka po odeslání formuláře--- */
+.thanks {
+  font-family: var(--font-special);
+}
   /* "TABLET" */
 @media screen and (min-width:600px) {
   .main-page__title {

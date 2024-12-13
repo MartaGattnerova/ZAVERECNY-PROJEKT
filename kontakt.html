@@ -6,25 +6,27 @@ title: MG - Kontakt
     <h2 class="contact__title">Kontakt</h2>
     <div class="contact__intro">
         <p class="contact__description">Tady mě můžete zastihnout.</p>
-        <p class="contact__info">
-        Ing. Bc. Marta Gattnerová<br>
-        <a class="contact__contact-item" href="mailto:marta.gattnerova@gmail.com">marta.gattnerova@gmail.com</a><br>
-        <a class="contact__contact-item" href="tel:+420732653499">+420732653499</a><br>
-        Zámecká 149, Velké Heraltice 747 75
-        </p>
+        <div class="contact-items">
+            <a class="contact__contact-item" href="mailto:marta.gattnerova@gmail.com">marta.gattnerova@gmail.com</a><br>
+            <a class="contact__contact-item" href="tel:+420732653499">+420732653499</a><br>
+            <p class="contact__info">Ing. Bc. Marta Gattnerová<br>
+            Zámecká 149, Velké Heraltice 747 75
+            </p>
+        </div>
     </div>
     <div class="contact__form-box">
         <p class="contact__form-text">Máte jakýkoliv dotaz? Napište!</p>
-        <form class="contact__form" method="get" action="#">
+        <form class="contact__form" method="post" action="https://submit-form.com/UAforHL0T">
+            <input type="hidden" name="_redirect" value="https://marta-gattnerova.netlify.app/thanks"/>
             <label class="contact__form-label" for="jmeno">Jméno</label>
-            <input class="contact__form-input" type="text" name="jmeno" id="jmeno" maxlength="25" placeholder="jméno" autofocus required>
+            <input class="contact__form-input" type="text" name="jmeno" id="jmeno" autofocus required>
 
             <label class="contact__form-label" for="email">E-mail</label>
-            <input class="contact__form-input" type="email" name="email" id="email" placeholder="e-mail" required>
+            <input class="contact__form-input" type="email" name="email" id="email" required>
 
             <label class="contact__form-label" for="message">Zpráva</label>
-            <textarea class="contact__form-textarea" name="message" id="message" placeholder="Vaše zpráva" rows="5" required></textarea>
-            <input type="submit" value="Odeslat">
+            <textarea class="contact__form-textarea" name="message" id="message" rows="5" required></textarea>
+            <button class="contact__form-button" type="submit">Odeslat</button>
         </form>
     </div>
 </main>
