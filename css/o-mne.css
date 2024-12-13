@@ -2,7 +2,7 @@
     background-color: var(--background-primary-color);
     margin-top:5vh;
     padding:8vh 0;
-  }
+}
 .about__title {
     font-family: var(--font-special);
     font-weight: var(--font-weight-normal);
@@ -19,10 +19,9 @@
 }
 .about__content {
     width: 80vw;
-    margin: 0 auto;
+    margin: 5vh auto;
     background-color: var(--background-box-color);
     padding: 5vh 5vw;
-    margin-top: 5vh;
 }
 .about__subtitle {
     font-family: var(--font-secondary);

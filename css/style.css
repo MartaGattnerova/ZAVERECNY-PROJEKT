@@ -81,7 +81,7 @@ body {
 .header__menu-link:active {
   color:var(--menu-link-active-color);
 }
-/* pozadí + logo hlavičky */
+/* pozadí + logo */
 .header__background-image {
   width: 100%;
   height: 30vh;

@@ -5,10 +5,9 @@
     text-align:center;
 }
 .services__intro {
-    margin-bottom: 5vh;
     width: 80vw;
     margin: 0 auto;
-  }
+}
 .services__title {
     font-family: var(--font-special);
     font-weight: var(--font-weight-normal);
@@ -47,6 +46,7 @@
 .services__hypertext:active {
     color:var(--menu-link-active-color);
 }
+
 /* "TABLET" */
 @media screen and (min-width:600px) {
     .services__box-image {
