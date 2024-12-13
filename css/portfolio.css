@@ -58,6 +58,7 @@
 }
 .portfolio__hypertext {
     color: var(--text-primary-color);
+    font-weight: var(--font-weight-semibold);
 }
 .portfolio__hypertext:hover {
     color:var(--menu-link-hover-color);

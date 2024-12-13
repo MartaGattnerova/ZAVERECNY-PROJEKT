@@ -39,6 +39,7 @@
 }
 .services__hypertext {
     color: var(--text-primary-color);
+    font-weight: var(--font-weight-semibold);
 }
 .services__hypertext:hover {
     color:var(--menu-link-hover-color);
