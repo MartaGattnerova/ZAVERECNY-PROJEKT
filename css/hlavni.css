@@ -61,6 +61,9 @@
 /* ---děkovací stránka po odeslání formuláře--- */
 .thanks {
   font-family: var(--font-special);
+  text-align: center;
+  font-size:2rem;
+  margin-top: 10vh;
 }
   /* "TABLET" */
 @media screen and (min-width:600px) {
